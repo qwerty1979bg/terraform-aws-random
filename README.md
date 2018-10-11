@@ -1,2 +1,2 @@
 # module-randompet
-A TF module that uses random pet TF provider to generate random name
+A TF module that uses random_pet TF provider to generate random name
