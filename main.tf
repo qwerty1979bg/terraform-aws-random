@@ -4,10 +4,16 @@ resource "random_pet" "random_name" {
   separator = "-"
 }
 
-variable "input" {
+variable "input_null" {
 type = string
 description = "An input variable"
 default = null
+}
+
+variable "input_with_default_value" {
+type = string
+description = "An input variable with a default value"
+default = "foo"
 }
 
 output "name" {
