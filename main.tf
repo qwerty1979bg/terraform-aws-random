@@ -4,6 +4,12 @@ resource "random_pet" "random_name" {
   separator = "-"
 }
 
+variable "input" {
+type = string
+description = "An input variable"
+default = null
+}
+
 output "name" {
   value = "${random_pet.random_name.id}"
 }
